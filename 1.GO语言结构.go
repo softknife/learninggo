@@ -26,6 +26,8 @@ func main() {
 
 	/* main函数中打印字符串*/
 	fmt.Println("Hello,世界!")
+	caculate()
+
 	// fmt.Println(...) 可以将字符串输出到控制台，并在最后自动增加换行字符 \n。
 	// 使用 fmt.Print("hello, world\n") 可以得到相同的结果。
 	// Print 和 Println 这两个函数也支持使用变量，如：fmt.Println(arr)。如果没有特别指定，它们会以默认的打印格式将变量 arr 输出到控制台。
