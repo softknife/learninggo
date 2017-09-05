@@ -38,6 +38,7 @@ func main() {
 	importFunc()
 	testDef()
 
+	getNumber()
 }
 
 // 标识符大小写区别:
