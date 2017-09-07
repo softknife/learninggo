@@ -39,6 +39,9 @@ func main() {
 	testDef()
 
 	getNumber()
+
+	testForLoop()
+	testLABEL()
 }
 
 // 标识符大小写区别:
