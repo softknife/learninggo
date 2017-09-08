@@ -42,6 +42,10 @@ func main() {
 
 	testForLoop()
 	testLABEL()
+	testArray()
+	testSiceUsage()
+
+	testResliceAppendCopy()
 }
 
 // 标识符大小写区别:
