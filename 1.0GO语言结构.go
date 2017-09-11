@@ -46,6 +46,12 @@ func main() {
 	testSiceUsage()
 
 	testResliceAppendCopy()
+
+	testMap()
+
+	testForRange()
+
+	testSortMap()
 }
 
 // 标识符大小写区别:
