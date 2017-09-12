@@ -52,6 +52,8 @@ func main() {
 	testForRange()
 
 	testSortMap()
+
+	testInvoke()
 }
 
 // 标识符大小写区别:
