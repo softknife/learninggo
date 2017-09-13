@@ -54,6 +54,8 @@ func main() {
 	testSortMap()
 
 	testInvoke()
+
+	testStruct()
 }
 
 // 标识符大小写区别:
