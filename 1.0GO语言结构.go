@@ -56,6 +56,10 @@ func main() {
 	testInvoke()
 
 	testStruct()
+
+	testMethod()
+
+	testValuePoint()
 }
 
 // 标识符大小写区别:
