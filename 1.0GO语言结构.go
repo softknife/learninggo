@@ -60,6 +60,10 @@ func main() {
 	testMethod()
 
 	testValuePoint()
+
+	testInterface()
+
+	testSuperCollectionInterface()
 }
 
 // 标识符大小写区别:
