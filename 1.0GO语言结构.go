@@ -64,6 +64,12 @@ func main() {
 	testInterface()
 
 	testSuperCollectionInterface()
+
+	testAnonamousFields()
+
+	testReflectModifyField()
+
+	testReflectCallMethod()
 }
 
 // 标识符大小写区别:
