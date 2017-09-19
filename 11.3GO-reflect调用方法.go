@@ -10,8 +10,8 @@ import (
 )
 
 // SayHelloTo 测试reflect 调用方法
-func (u User) SayHelloTo(name string) {
-	fmt.Println("hello", name, ",my name is ", u.Name)
+func (u User) SayHelloTo(name string, lastName string) {
+	fmt.Println("hello", name, lastName, ",my name is ", u.Name)
 }
 
 func testReflectCallMethod() {
@@ -23,7 +23,7 @@ func testReflectCallMethod() {
 	mv := v.MethodByName("SayHelloTo")
 
 	// 定义参数,使用slice定义参数
-	args := []reflect.Value{reflect.ValueOf("eric")}
+	args := []reflect.Value{reflect.ValueOf("eric"), reflect.ValueOf("Ingram")}
 
 	// 调用!
 	mv.Call(args)

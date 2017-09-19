@@ -70,6 +70,10 @@ func main() {
 	testReflectModifyField()
 
 	testReflectCallMethod()
+
+	testGoRoutine()
+
+	testMultiCore()
 }
 
 // 标识符大小写区别:
