@@ -74,7 +74,7 @@ func goTask(c chan bool, index int) {
 
 func testMultiCore1() {
 
-	// 1.控制核数+channel
+	// 1.控制核数+WaitGroup
 	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	wg := sync.WaitGroup{} // 设置10个缓存

@@ -74,6 +74,8 @@ func main() {
 	testGoRoutine()
 
 	testMultiCore()
+
+	testPang()
 }
 
 // 标识符大小写区别:
